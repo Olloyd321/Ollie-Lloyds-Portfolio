@@ -2,63 +2,80 @@
 <html lang="en-US">
     
 
-    <head>
+    <head class="My-heading">
+        <title>Ollie Lloyd</title>
         <meta charset="UTF-8">
         <meta author="Ollie Lloyd">
         <meta name="Ollies Portfolio" content="width=device-width, initial-scale=1.0">
-        <title>Ollie Lloyd</title>
+        <link rel="stylesheet" type="text/css" href="./assets/resetcss.css">
+        <link rel="stylesheet" type="text/css" href="./assets/mystyle.css">
     </head>
 
     <body>
        <!-- Section with clickable links to appropriate sections on page -->
         <header>
             <nav class="nav-bar">
-                <ul><strong>
+                <ul>
+                    <h1>
                     <li><a href="#About Me">About Me</a></li>
-                    <li><a href="#My Projects">My Projects</a></li>
-                    <li><a href="#Contact Me">Contact Me</a></li> 
+                    <li><a href="#My-Projects">My Projects</a></li>
+                    <li><a href="#Contact-Me">Contact Me</a></li> 
                     <li><a href="https://github.com/Olloyd321">My Github</a></li>
                     <li><a href="./assets/Files/Oliver Lloyd Resumé 07.2022 (tech_production).pdf">Resume</a></li>
-                    </strong>  
+                    </h1>  
                 </ul>
             </nav>
         </header>
 
         <main>
             <!-- Main section with about me and projects -->
-            <h1 id="Main Name Header">Ollie Lloyd</h1>
+            <h1 id="Main-Name-Header">Ollie Lloyd</h1>
             <img class="profile-pic" src="./assets/images/Portfolio Pic-1.jpg" alt="Ollie Lloyd Professional Headshot">
-            
+
+            <div class="About-Me-Title">
             <h2 id="About Me">About Me</h2>
-                <p>My name is Ollie Lloyd and this page is designed to display my ability to write HTML and CSS, 
+                <p class="about-me-paragraph">My name is Ollie Lloyd and this page is designed to display my ability to write HTML and CSS, 
                     as well as deploying the files properly.
                     I started my coding journey last year and am learning to create impressive and interactive web-pages.
+                    My goal is to learn the fundamentals of web dev to widen my scope of experience and present myself with more oppourtunities.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vel dicta eveniet molestias, 
+                    alias fugit libero voluptatem vitae amet quasi facilis impedit temporibus, qui sint debitis quas minus eligendi doloribus.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vel dicta eveniet molestias, 
+                    alias fugit libero voluptatem vitae amet quasi facilis impedit temporibus, qui sint debitis quas minus eligendi doloribus.
+                    Iste temporibus ab dolorem eaque minus odit consequuntur laudantium, reprehenderit repellat dignissimos at sed!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vel dicta eveniet molestias, 
+                    alias fugit libero voluptatem vitae amet quasi facilis impedit temporibus, qui sint debitis quas minus eligendi doloribus.
+                    Sint vel officia repellendus! Voluptates atque dolorem deleniti beatae corrupti, labore quasi ad velit sed? Recusandae!</p> 
+                
                 </p>
+            </div>
 
             <!-- My Projects section -->
             <section>
-                <h3 id="My Projects">My Projects</h3>
-                <ul>
-                    <a href="https://github.com/Olloyd321/Preworkstudyguide">Pre-work Study Guide Repo</a> 
-                    <a href="https://olloyd321.github.io/challenge-day-3/">SEO Marketing Strategies</a>
-                    <a href="https://github.com/Olloyd321/challenge-day-3">REPOSITORY for SEO Marketing Strategies</a>
+                <h3 id="My-Projects">My Projects</h3>
+                <ul class="My-Project-Links">
+                    <a id="Project-1" href="https://github.com/Olloyd321/Preworkstudyguide">Pre-work Study Guide Repo</a> 
+                    <a id="Project-2" href="https://olloyd321.github.io/challenge-day-3/">SEO Marketing Strategies</a>
+                    <a id="Project-3" href="https://github.com/Olloyd321/challenge-day-3">REPOSITORY for SEO Marketing Strategies</a>
                 </ul>
             </section>    
 
             <!-- How to contact me section -->
-            <section id="Contact Me">
+            <section id="Contact-Me">
                 <h4>Contact Information</h4>
                 <ul>
-                    <li>Email</li>
-                    <li>Office</li>
-                    <li>Cell</li>
+                    <li><a id="email" href="mailto:olloyd321@gmail.com" >Email</a></li> 
+                    <li><a id="office" href="tel:555-555-5555"> Office</a></li>
+                    <li><a id="cell" href="tel:555-565-5555"> Cell </a></li>
                 </ul>
             </section>
 
         </main>
 
-        <footer>
+        <footer class="footer">
+            <div>
             ©2022 Ollie Lloyd
+            </div>
         </footer>
 
     </body>
