@@ -113,6 +113,7 @@ a:hover{
     border-radius: 25px;
 }
 
+/* My projects styling/boxes lower third of page */
 
 #My-Projects{
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
@@ -183,6 +184,8 @@ a:hover{
     display: flex;
     flex-direction: row;
 }
+
+    /* Styling for contacting me */
 
 #Contact-Me{
     text-align: center;
