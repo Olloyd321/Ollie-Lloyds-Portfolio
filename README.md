@@ -4,6 +4,8 @@ This document is Ollie Lloyds README for his portfolio for the Week 2 Challenge.
 
 This project is designed to outline Ollie Lloyd's portfolio of github and other web dev projects
 
+The most challenging part of this challenge was how to style the CSS, writing the HTML and linking very basic CSS worked well but had a bit of trouble really making the site not look clunky. A tutor helped me really refine the acceptance criteria and neaten up the appearance. The second most challenging aspect of this challenge was how to implement the media query for different sized screens, I know how to make changes when the browser is smaller but wasn't sure what I should do to optimize its appearance.
+
 ## Acceptance Criteria is as follows
     ```
     GIVEN I need to sample a potential employee's previous work
@@ -25,9 +27,9 @@ The link displays an about me section, a picture of me, my resume, how to contac
 
 
 
-## links 
-Please find the deployment link here:
+## Links 
+Please find the deployment link [here](https://olloyd321.github.io/Ollie-Lloyds-Portfolio/) 
 
-Please find the link to the repo here:
+Please find the link to the repo [here](https://github.com/Olloyd321/Ollie-Lloyds-Portfolio)
 
-Please find an image of the link here:
+Please find an image of the link here: ![image of my website](assets/images/Website%20Image.png)
