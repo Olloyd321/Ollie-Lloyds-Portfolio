@@ -5,6 +5,7 @@ This document is Ollie Lloyds README for his portfolio for the Week 2 Challenge.
 This project is designed to outline Ollie Lloyd's portfolio of github and other web dev projects
 
 The most challenging part of this challenge was how to style the CSS, writing the HTML and linking very basic CSS worked well but had a bit of trouble really making the site not look clunky. A tutor helped me really refine the acceptance criteria and neaten up the appearance. The second most challenging aspect of this challenge was how to implement the media query for different sized screens, I know how to make changes when the browser is smaller but wasn't sure what I should do to optimize its appearance.
+I also had trouble being able to make an image clickable and styling that image so I made a box with a text box that was clickable.
 
 ## Acceptance Criteria is as follows
     ```
