@@ -116,7 +116,7 @@ a:hover{
 /* My projects styling/boxes lower third of page */
 
 #My-Projects{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-family: Oswald;   
     text-align: center;
 }
 
@@ -134,7 +134,7 @@ a:hover{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    background-image: url(./images/Marketing-SEO-Project.png);
+    background-image: url(./images/Space-Repo_Cover-Image.png);
     height: 300px;
     background-size: cover;
     
@@ -170,7 +170,7 @@ a:hover{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    background-image: url(./images/coding-place-holder-image02.jpg);
+    background-image: url(.//images/Marketing-SEO-Project.png);
     height: 300px;
     width: 50%;
     background-size: cover;
