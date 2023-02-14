@@ -170,7 +170,7 @@ a:hover{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    background-image: url(.//images/Marketing-SEO-Project.png);
+    background-image: url(./images/Marketing-SEO-Project.png);
     height: 300px;
     width: 50%;
     background-size: cover;
